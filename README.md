@@ -23,4 +23,4 @@
 | 1 | 1 | 10 | - |
 | 1 | 2 | 1 | - |
 
-![ ](https://avatars.mds.yandex.net/i?id=b51690080647dd86775f656ca833adf4306defb4-10878933-images-thumbs&n=13)
+![:)](https://avatars.mds.yandex.net/i?id=b51690080647dd86775f656ca833adf4306defb4-10878933-images-thumbs&n=13)
