@@ -7,6 +7,14 @@ using namespace std; //используем пространство имён st
 float Ff (float a, float b)
 {
     float sum = a + b; // для удобства создаём сумму b и a
+    cout << "For float :\n";
+    cout << "summa a+b = " << a+b;
+    cout << "; a^3 = " << a*a*a;
+    cout << "; 3*a*b*b = " << 3*a*b*b;
+    cout << "; b*b*b = " << b*b*b;
+    cout << "; 3*a*a*b = " << 3*a*a*b << endl;
+    cout << "sum*sum*sum - a*a*a = " << sum*sum*sum - a*a*a << endl;
+    cout << "3*a*b*b + b*b*b + 3*a*a*b = " << 3*a*b*b + b*b*b + 3*a*a*b << endl;
     return ( sum*sum*sum - a*a*a ) / ( 3*a*b*b + b*b*b + 3*a*a*b ); //возвращаем результат
 }
 
@@ -14,6 +22,14 @@ float Ff (float a, float b)
 double Fd (double a, double b)
 {
     double sum = a + b; // для удобства создаём сумму b и a
+    cout << "For double :\n";
+    cout << "summa a+b = " << a+b;
+    cout << "; a^3 = " << a*a*a;
+    cout << "; 3*a*b*b = " << 3*a*b*b;
+    cout << "; b*b*b = " << b*b*b;
+    cout << "; 3*a*a*b = " << 3*a*a*b << endl;
+    cout << "sum*sum*sum - a*a*a = " << sum*sum*sum - a*a*a << endl;
+    cout << "3*a*b*b + b*b*b + 3*a*a*b = " << 3*a*b*b + b*b*b + 3*a*a*b << endl;
     return ( sum*sum*sum - a*a*a ) / ( 3*a*b*b + b*b*b + 3*a*a*b ); //возвращаем результат
 }
 
