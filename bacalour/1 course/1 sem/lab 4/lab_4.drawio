@@ -1,0 +1,228 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="yC09rkqg8xF3HZbel_Sv">
+    <mxGraphModel dx="3636" dy="2536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1mAKprsLMedjt4ALKCh7-3" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-1" parent="1" style="shape=process;whiteSpace=wrap;backgroundOutline=1;" value="int main()" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-5" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-2" parent="1" style="whiteSpace=wrap;" value="setlocale(LC_ALL, &quot;.65001&quot;);" vertex="1">
+          <mxGeometry height="60" width="270" x="255" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-7" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-4" parent="1" style="whiteSpace=wrap;" value="int n, k;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-9" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; &quot;Введите размер массива: &quot;;" vertex="1">
+          <mxGeometry height="60" width="330" x="225" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-11" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cin &gt;&gt; n;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-13" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-10" parent="1" style="whiteSpace=wrap;" value="int* m = new int[n];" vertex="1">
+          <mxGeometry height="60" width="200" x="290" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-15" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; &quot;Введите массив через пробел: &quot;;" vertex="1">
+          <mxGeometry height="60" width="360" x="210" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-17" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-21" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-14" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="for(int i = 0; i &lt; n; ++i)" vertex="1">
+          <mxGeometry height="80" width="240" x="270" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cin &gt;&gt; m[i];" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-18" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-16" style="endArrow=classic;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1mAKprsLMedjt4ALKCh7-14" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.8514" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="810" />
+              <mxPoint x="250" y="810" />
+              <mxPoint x="250" y="660" />
+            </Array>
+            <mxPoint x="400" y="770" as="sourcePoint" />
+            <mxPoint x="310" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-23" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-20" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; &quot;Введите индекс числа, с которго вывести массив (нумерация с 1): &quot;;" vertex="1">
+          <mxGeometry height="60" width="660" x="520" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-27" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-22" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cin &gt;&gt; k;" vertex="1">
+          <mxGeometry height="60" width="120" x="790" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-29" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-26" parent="1" style="whiteSpace=wrap;" value="--k;" vertex="1">
+          <mxGeometry height="30" width="60" x="820" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-34" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-37" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-28" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="for(int i = n+k+n; i &gt; k-2+n; --i)" vertex="1">
+          <mxGeometry height="80" width="350" x="675" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-33" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; m[i%n] &lt;&lt; &quot; &quot;;" vertex="1">
+          <mxGeometry height="60" width="240" x="730" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-35" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-33" style="endArrow=classic;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1mAKprsLMedjt4ALKCh7-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="1120" />
+              <mxPoint x="620" y="1120" />
+              <mxPoint x="620" y="960" />
+            </Array>
+            <mxPoint x="850" y="1040" as="sourcePoint" />
+            <mxPoint x="750" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-39" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-36" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="60" width="150" x="1091" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-41" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-38" parent="1" style="whiteSpace=wrap;" value="int* mn = new int[n-2];" vertex="1">
+          <mxGeometry height="60" width="234" x="1049" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-43" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-46" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-40" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="for(int i = 1; i &lt; n-1; ++i)" vertex="1">
+          <mxGeometry height="80" width="284" x="1024" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-42" parent="1" style="whiteSpace=wrap;" value="mn[i-1] = m[i];" vertex="1">
+          <mxGeometry height="60" width="150" x="1091" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-44" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-42" style="endArrow=classic;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1mAKprsLMedjt4ALKCh7-40" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0748" as="geometry">
+            <Array as="points">
+              <mxPoint x="1166" y="1380" />
+              <mxPoint x="950" y="1380" />
+              <mxPoint x="950" y="1220" />
+            </Array>
+            <mxPoint x="1190" y="1300" as="sourcePoint" />
+            <mxPoint x="1240" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-48" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-45" parent="1" style="whiteSpace=wrap;" value="n-=2;" vertex="1">
+          <mxGeometry height="60" width="120" x="1340" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-50" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-47" parent="1" style="whiteSpace=wrap;" value="delete m;" vertex="1">
+          <mxGeometry height="60" width="120" x="1340" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-52" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-49" parent="1" style="whiteSpace=wrap;" value="m = new int[n];" vertex="1">
+          <mxGeometry height="60" width="140" x="1330" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-54" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-51" parent="1" style="whiteSpace=wrap;" value="copy(mn, mn+n, m);" vertex="1">
+          <mxGeometry height="60" width="170" x="1315" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-56" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-55" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-53" parent="1" style="whiteSpace=wrap;" value="delete mn;" vertex="1">
+          <mxGeometry height="60" width="120" x="1340" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-58" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-61" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-55" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="for(int i = k; i &lt; n+k+2; ++i)" vertex="1">
+          <mxGeometry height="80" width="290" x="1255" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-57" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; m[i%n] &lt;&lt; &quot; &quot;;" vertex="1">
+          <mxGeometry height="60" width="230" x="1285" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-59" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-57" style="endArrow=classic;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1mAKprsLMedjt4ALKCh7-55" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0656" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="1870" />
+              <mxPoint x="1200" y="1870" />
+              <mxPoint x="1200" y="1720" />
+            </Array>
+            <mxPoint x="1380" y="1800" as="sourcePoint" />
+            <mxPoint x="1430" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-65" edge="1" parent="1" source="1mAKprsLMedjt4ALKCh7-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;defaultLabelBackgroundColor=page;" target="1mAKprsLMedjt4ALKCh7-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-60" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="60" width="150" x="1560" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-64" parent="1" style="ellipse;whiteSpace=wrap;shapeInside=1;" value="return 0;" vertex="1">
+          <mxGeometry height="80" width="135" x="1567.5" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-66" parent="1" style="strokeWidth=2;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="#include &lt;iostream&gt;&#xa;using namespace std;" vertex="1">
+          <mxGeometry height="60" width="50" x="600" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-67" edge="1" parent="1" style="endArrow=none;dashed=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="1mAKprsLMedjt4ALKCh7-66" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="110" as="sourcePoint" />
+            <mxPoint x="550" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-68" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="}" vertex="1">
+          <mxGeometry height="30" width="60" x="1605" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="1mAKprsLMedjt4ALKCh7-69" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="{" vertex="1">
+          <mxGeometry height="30" width="20" x="360" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
